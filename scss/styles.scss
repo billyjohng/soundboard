@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: teal;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    display: flex;
+
+
+    code {
+        font-size: 2rem;
+    }
+
+    .btn {
+        border: 0;
+        padding: 2rem 3rem;
+        margin: 1rem;
+        background-color: rgb(4, 4, 114);
+        color: #fff;
+        border-radius: 1rem;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .4);
+        cursor: pointer;
+    }
+
+    .btn:active {
+        transform: scale(.99);
+    }
+
+    .btn:focus {
+        outline: 0;
+    }
+
+    
+}
